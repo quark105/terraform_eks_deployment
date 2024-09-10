@@ -73,7 +73,7 @@ module "eks" {
   }
 
   eks_managed_node_groups = {
-    node-group-by-quark115 = {
+    node-group-by-quark105 = {
       min_size     = 1
       max_size     = 2
       desired_size = 1
@@ -82,7 +82,7 @@ module "eks" {
       capacity_type  = "SPOT"
 
       tags = {
-        ExtraTag = "helloworld"
+        ExtraTag = "helloworldS"
       }
     }
   }
