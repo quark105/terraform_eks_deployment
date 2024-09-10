@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
 }
-#we define local variables
+#define local variables
 locals {
   name   = "my-eks-cluster"
   region = "us-east-1"
